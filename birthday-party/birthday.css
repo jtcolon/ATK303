@@ -93,6 +93,12 @@ h3{
   border-bottom: 3px solid #dc7741;
 }
 
+p a{
+  color: #dc7741;
+  text-decoration: none;
+  font-weight: 400;
+}
+
 footer {
   grid-column: span 12;
   font-style: italic;
