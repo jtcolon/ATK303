@@ -156,12 +156,13 @@ main {
 
 #pic{
   position: relative;
-  animation: pic-ani 10s linear infinite;
+  animation: pic-ani 25s ease-in-out infinite;
 }
 
-@keyframes move-ani {
-0%   { opacity: 1; top:500px; }
-100% { opacity: 1; top: -500px; }
+@keyframes pic-ani {
+0%   { opacity: 1; top:-200px; }
+50% { opacity: 1; top: -770px; }
+100% { opacity: 1; top: -200px;}
 }
 
 footer {
