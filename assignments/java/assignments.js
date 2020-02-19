@@ -21,23 +21,23 @@ window.onload = function () {
     var Plate = logo.select("#Plate");
 
     // Hide LetterA and move it up 100 pixels
-    Plate.attr({ opacity: 0, transform: "t-400,-100" });
+    Plate.attr({ opacity: 0, transform: "t-600,-100" });
 
     // Hide LetterT and rotate it 360 degrees
-    Cup.attr({ opacity: 0, transform: "t0,-500,r45" });
+    Cup.attr({ opacity: 0, transform: "t0,-800,r45" });
 
     // Hide LetterK and scale it down
-    Steam.attr({ opacity: 0, transform: "s.1,225,50" });
+    Steam.attr({ opacity: 0, transform: "50" });
 
     s.append(logo); // append SVG to #svgout
 
     // Animate LetterA over 500ms,
     // change opacity and move to original position
-    Plate.animate({ opacity: 1, transform: "t0,0" },2000);
+    Plate.animate({ opacity: 1, transform: "t0,0" },1500);
 
     // Animate LetterT over 1000ms,
     // change opacity and rotate to zero
-    Cup.animate({ opacity: 1, transform: "t0,0,r0" },4000);
+    Cup.animate({ opacity: 1, transform: "t0,0,r0" },3000);
 
     // Animate LetterK over 1500ms,
     // change opacity and scale to original size (1)
