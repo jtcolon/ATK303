@@ -1,58 +1,29 @@
 body {
-  background-color: white;
+  color: #19161d;
+  background-color: #f2f2f2;
   font-family: arial, sans-serif;
   font-weight: 200;
   font-style: normal;
 }
 
-#wrapper {
-  margin: 24px auto;
-  width: 1200px;
-  color: #19161d;
-  background-color: #f2f2f2;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-
 
 h1 {
-  grid-column: span 4;
+  width: 35%;
   float: left;
   margin-left: 10px;
-  letter-spacing: 3px;
+  letter-spacing: .15em;
 }
 
 header{
-  grid-column: span 12;
-  height: auto;
+  display: grid;
   color: white;
 }
 
 
-h2{
-  font-weight: lighter;
-  grid-column: span 12;
-  padding: 5px;
-}
-/*
-#box{
-  background-color: #232323;
-}
-*/
-
-#svgout {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 24px;
-  width: 700px;
-}
-
 .sect{
   width: 100%;
-  padding: 10px 50px 10px 10px;
-  border-left: 5px solid;
+  padding: .625em 3em .625em .625em;
+  border-left: .35em solid;
   position: relative;
   z-index: 2;
   text-decoration: none;
@@ -95,7 +66,7 @@ h2{
 }
 
 .parallax-window-small{
-    min-height: 100px;
+    min-height: 8em;
     background: transparent;
 }
 
@@ -105,9 +76,10 @@ h2{
 }
 
 nav {
-  grid-column: span 8;
+  display: grid;
+  width:60%;
   float: right;
-  margin-top: 50px;
+  margin-top: 4em;
 }
 
 nav li{
@@ -153,6 +125,33 @@ main {
   color: #444;
 }
 
+.content{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+
+/*When the page width gets to a certain size, I want the h2 to move above the p, instead of float.  The p should colaps beneath the heading*/
+h2{
+  font-weight: lighter;
+  padding: .33em;
+  grid-column: span 1;
+  float: left;
+}
+
+p{
+  grid-column: span 3;
+  border-top: .15em solid #ffd071;
+  border-bottom: .15em solid #ffd071;
+  margin: 1.5em 2em 1em 2em;
+  padding: 1em .25em 1em .25em;
+
+}
+
+h3{
+  font-weight: lighter;
+}
+
 #coffee{
   width: 100%;
 }
@@ -166,24 +165,25 @@ main {
 }
 
 .container{
-  width: 1200px;
+  width: 100%;
   height: 300px;
   overflow: hidden;
   }
 
 #pic{
+  width: 100%;
   position: relative;
   animation: pic-ani 25s ease-in-out infinite;
 }
 
 @keyframes pic-ani {
-0%   { opacity: 1; top:-200px; }
-50% { opacity: 1; top: -770px; }
-100% { opacity: 1; top: -200px;}
+0%   { opacity: 1; top:-12.5em; }
+50% { opacity: 1; top: -48.125em; }
+100% { opacity: 1; top: -12.5em;}
 }
 
 footer {
-  grid-column: span 12;
+  display: grid;
   font-style: italic;
   border-top: 3px solid #ffd071;
   margin-top: 25px;
