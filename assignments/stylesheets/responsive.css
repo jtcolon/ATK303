@@ -227,16 +227,17 @@ footer {
     float: right;
     margin-top: 3em;
   }
-
+  .content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
   h2{
-    width: 25%;
-    grid-column: span 3;
+    grid-column: span 1;
+    float: left;
   }
 
-  .conent{
-    width: 75%;
-    grid-column: span 9;
-
+  .description{
+    grid-column: span 2;
   }
 
   .parallax-window-small{
