@@ -243,6 +243,10 @@ footer {
   .parallax-window-small{
       min-height: 6em;
   }
+  .container{
+    height: 18.75em;
+  }
+
   footer{
     grid-column: span 12;
   }
