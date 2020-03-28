@@ -108,7 +108,7 @@ nav li a:hover{
 }
 
 .parallax-window-head{
-  min-height: 100px;
+  min-height: 6.25em;
   background: transparent;
 }
 
@@ -230,8 +230,6 @@ footer {
   .content{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    height: 18.75em;
-
   }
   h2{
     grid-column: span 1;
