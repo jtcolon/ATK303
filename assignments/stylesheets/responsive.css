@@ -230,6 +230,8 @@ footer {
   .content{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    height: 18.75em;
+
   }
   h2{
     grid-column: span 1;
