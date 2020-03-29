@@ -98,12 +98,12 @@ nav li a:hover{
 
 
 .parallax-header {
-    min-height: 7em;
+    min-height: 6.25em;
     background: transparent;
 }
 
-.parallax-window-small{
-    min-height: 8em;
+.parallax-main{
+    min-height: 20em;
     background: transparent;
 }
 
