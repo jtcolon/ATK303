@@ -97,8 +97,8 @@ nav li a:hover{
 .sect:first-child:after{ background: #ffd071; }
 
 
-.parallax-window {
-    min-height: 350px;
+.parallax-header {
+    min-height: 7em;
     background: transparent;
 }
 
@@ -112,6 +112,9 @@ nav li a:hover{
   background: transparent;
 }
 
+.parallax-mirror img {
+  width: 100%;
+}
 
 
 main {
