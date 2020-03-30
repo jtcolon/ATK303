@@ -17,6 +17,7 @@ h1 {
 }
 
 header{
+  background-color: rgba(200, 200, 200, 0.3);
   display: grid;
   color: white;
   height: auto;
@@ -149,6 +150,7 @@ h3{
 }
 
 #latte{
+  background-color: rgba(200, 200, 200, 0.3);
   position: relative;
   font-size: 74pt;
   color: white;
@@ -181,7 +183,7 @@ footer {
   margin-top: 2em;
   padding: 1em;
   text-align: center;
-  color: #b8b8b8;
+  color: #a7a7a7;
   font-size: 10pt;
 }
 
